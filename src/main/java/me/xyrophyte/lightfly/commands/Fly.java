@@ -17,7 +17,7 @@ public class Fly implements CommandExecutor {
         this.instance = instance;
     }
 
-    private final ArrayList flyingPlayers = new ArrayList<>();
+    private final ArrayList<Player> flyingPlayers = new ArrayList<>();
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
