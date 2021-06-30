@@ -1,0 +1,11 @@
+name: LightFly
+version: ${project.version}
+main: me.xyrophyte.lightfly.LightFly
+api-version: 1.17
+authors: [ XyroPhyte ]
+description: A simple light weight plugin that implements flying.
+website: https://sites.google.com/view/xyrophyte/
+commands:
+  fly:
+    description: Allows you to fly.
+    usage: /fly
