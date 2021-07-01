@@ -1,6 +1,7 @@
 package me.xyrophyte.lightfly;
 
 import me.xyrophyte.lightfly.commands.Fly;
+import me.xyrophyte.lightfly.events.OnDamage;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -12,8 +13,10 @@ public final class LightFly extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info(ChatColor.AQUA + "Plugin starting up");
-        getLogger().info(ChatColor.AQUA + "For Support, join: " + ChatColor.BLUE + "https://discord.gg/MmqXcebnxC");
+        getLogger().info(ChatColor.AQUA + "For Support, join:");
+        getLogger().info(ChatColor.LIGHT_PURPLE + "https://discord.gg/MmqXcebnxC");
         Objects.requireNonNull(getCommand("fly")).setExecutor(new Fly(this));
+        getServer().getPluginManager().registerEvents(new OnDamage(), this);
         getLogger().info(ChatColor.AQUA + "Plugin started successfully!");
     }
 

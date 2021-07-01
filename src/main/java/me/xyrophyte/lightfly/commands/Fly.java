@@ -69,7 +69,7 @@ public class Fly implements CommandExecutor {
     }
 
     private void noPermission(Player player) {
-        player.sendMessage(ChatColor.RED + "Failed to run command. REASON: Not enough Permissions." +
+        player.sendMessage(ChatColor.RED + "Failed to run command. REASON: Not enough Permissions. " +
                 ChatColor.AQUA + "Contact an administrator if you believe this is an error.");
     }
     private void unhandledException(Player player) {
