@@ -8,6 +8,5 @@ public class OnJoin implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         event.getPlayer().setAllowFlight(false);
-        System.out.println("Disabled flight for " + event.getPlayer().getDisplayName());
     }
 }

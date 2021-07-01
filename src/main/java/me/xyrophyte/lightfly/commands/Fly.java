@@ -75,7 +75,10 @@ public class Fly implements CommandExecutor {
     private void unhandledException(Player player) {
         player.sendMessage(ChatColor.DARK_RED + "Unhandled Exception. Please contact a Server Administrator." +
                 "Tell them to read the Server Logs for hint.");
-        instance.getLogger().severe(ChatColor.DARK_RED + "Unhandle Exception. Please report this to the plugin developers by joining" +
-                ChatColor.DARK_PURPLE + "https://discord.gg/dpYrXXWWrM " + ChatColor.DARK_RED + "Please include how to reproduce the error.");
+        instance.getLogger().severe(ChatColor.RED + "Unhandled Exception. Please report this to the plugin developers by joining" +
+                ChatColor.DARK_PURPLE + "https://discord.gg/dpYrXXWWrM " +
+                ChatColor.RED + "or opening a GitHub Issue at" +
+                ChatColor.DARK_PURPLE + "https://github.com/XyroPhyte/LightFly/issues " +
+                ChatColor.RED + "Please include how to reproduce the issue.");
     }
 }
