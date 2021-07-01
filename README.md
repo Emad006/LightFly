@@ -10,10 +10,16 @@ I will soon test out the plugin in different Minecraft Versions and list
 the versions LightFly is compatible with.
 
 ## Installation
+Download the plugin for the [GitHub Release](https://github.com/XyroPhyte/LightFly/releases).
+Make sure to select the compatible version. If you cannot find a compatible version,
+read the [Support Section](https://github.com/XyroPhyte/LightFly#support).
+Make sure to read the [Notes](https://github.com/XyroPhyte/LightFly#note) before installation.
+
+
 Installation of the plugin is straight forward and is similar to rest of the
 other plugins. Simply drag and drop the appropriate version of
-`.jar` file into your server's `plugin`
-folder. No configuration required, and the plugin will not create a folder or
+`.jar` file into your server's `plugin` folder.
+No configuration required, and the plugin will not create a folder or
 any sort of configuration files such as `config.yml`.
 
 ## Permissions
@@ -39,5 +45,9 @@ disables fall damage for that user. The user will not take any fall damage at al
 Also, upon joining, the player's flight is set to off. The player have to
 manually re-enable their flight if they had it turned on when they left the server.
 
-Also, this repository's code is compatible for Minecraft 1.17. Other versions may be compatible too,
-but I am not sure.
+Also, this repository's code is made for the Spigot API Minecraft 1.17. Other versions may be compatible too, but not
+all. I will soon test out the `1.17 jar` with other versions of Minecraft and update here what versions the `1.17 jar` is
+compatible with!
+
+If you liked my plugin, please make sure to star my repository, as it will
+help other people discover my plugin, and I'd really appreciate it!
