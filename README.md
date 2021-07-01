@@ -22,6 +22,9 @@ other plugins. Simply drag and drop the appropriate version of
 No configuration required, and the plugin will not create a folder or
 any sort of configuration files such as `config.yml`.
 
+You will need at least [Java 8](https://www.oracle.com/java/technologies/java8.html) or above to run this plugin, otherwise it may cause errors.
+This plugin is written in [Java 8](https://www.oracle.com/java/technologies/java8.html).
+
 ## Permissions
 - `lightfly.fly` allows a user to fly.
 - `lightfly.others` allows a user to let others fly.
