@@ -27,9 +27,9 @@ or join the [Discord Server](https://discord.gg/MmqXcebnxC) and let me know abou
 to include how to reproduce the bug or the issue.
 
 Also, if you want me to make minor modifications for you, such as
-disabling the `Disable Flight OnJoin` completely, feel free to let me know by joining
-the [Discord Server](https://discord.gg/MmqXcebnxC). I will try my best to compile a custom `.jar` for you.
-I will also provide you the source code if you want.
+disabling the `Disable Flight OnJoin` completely, or making the plugin for other Minecraft Versions such as 1.12.2,
+feel free to let me know by joining  the [Discord Server](https://discord.gg/MmqXcebnxC).
+I will try my best to compile a custom `.jar` for you.  I will also provide you the source code if you want.
 
 ### Note
 When a user flying disables flight mid-air, they will fall down and take damage.
@@ -38,3 +38,6 @@ You can however, assign a player the `light.nofall` permission which completely
 disables fall damage for that user. The user will not take any fall damage at all.
 Also, upon joining, the player's flight is set to off. The player have to
 manually re-enable their flight if they had it turned on when they left the server.
+
+Also, this repository's code is compatible for Minecraft 1.17. Other versions may be compatible too,
+but I am not sure.
