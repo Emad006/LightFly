@@ -69,13 +69,13 @@ public class Fly implements CommandExecutor {
     }
 
     private void noPermission(Player player) {
-        player.sendMessage(ChatColor.RED + "Failed to run command. REASON: Not enough Permissions. " +
+        player.sendMessage(ChatColor.RED + "Failed to run command. REASON: Not enough Permissions." +
                 ChatColor.AQUA + "Contact an administrator if you believe this is an error.");
     }
     private void unhandledException(Player player) {
-        player.sendMessage(ChatColor.DARK_RED + "Unhandled Exception. Please contact a Server Administrator. " +
+        player.sendMessage(ChatColor.DARK_RED + "Unhandled Exception. Please contact a Server Administrator." +
                 "Tell them to read the Server Logs for hint.");
-        instance.getLogger().severe(ChatColor.DARK_RED + "Unhandle Exception. Please report this to the plugin developers by joining " +
+        instance.getLogger().severe(ChatColor.DARK_RED + "Unhandle Exception. Please report this to the plugin developers by joining" +
                 ChatColor.DARK_PURPLE + "https://discord.gg/dpYrXXWWrM " + ChatColor.DARK_RED + "Please include how to reproduce the error.");
     }
 }
